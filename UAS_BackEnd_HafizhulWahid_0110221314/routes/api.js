@@ -24,7 +24,7 @@ router.put("/patients/:id", PatientController.update);
 
 router.delete("/patients/:id", PatientController.destroy);
 
-router.get("/patients/:id", PatientController.show);
+router.get("/patients/:id", PatientController.find);
 
 router.get("/patients/search/:name", PatientController.search_name);
 
